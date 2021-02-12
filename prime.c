@@ -4,7 +4,7 @@
 int main(void)
 {
 	int i, j, k;  //iは判定する整数、ｊはiを割る整数、kは判定用
-    i = 3;
+	i = 3;
 
 	printf("2 ");
 
