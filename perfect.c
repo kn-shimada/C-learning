@@ -5,10 +5,10 @@
 
 int main(void)
 {
-    uint16_t i, j, k, prime, perfect;
-    i = 2;
+    uint32_t i, j, k, prime, perfect;
+    i = 17;
 
-    while(i <= 13)
+    while(i = 17)
     {
         prime = (uint16_t)pow(2, i) - 1;
         k = 0;
@@ -23,7 +23,7 @@ int main(void)
             
 		    if(k == 0)  //prime素数ならperfectを表示
             {
-                perfect = (uint16_t)pow(2, i - 1) * (pow(2, i) - 1); 
+                perfect = (uint32_t)pow(2, i - 1) * (pow(2, i) - 1); 
                 printf("%d ", perfect);
             }
         i += 1;
