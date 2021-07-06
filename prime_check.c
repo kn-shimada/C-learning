@@ -2,25 +2,25 @@
 # include <stdint.h>
 # include <math.h>
 
-int prime(uint_fast16_t num);
+int prime(uint_fast64_t num);
 
 int main(void){
-    uint_fast16_t num;
+    uint_fast64_t num;
 
     printf("number: ");
-    scanf("%u", &num);
+    scanf("%lu", &num);
 
     if (prime(num) == 0) {
-        printf("%u is prime number\n", num);
+        printf("%lu is prime number\n", num);
     } else {
-        printf("%u isn't prime number\n", num);
+        printf("%lu isn't prime number\n", num);
     }
 
     return 0;
 }
 
-int prime(uint_fast16_t num) {
-    uint_fast16_t i;
+int prime(uint_fast64_t num) {
+    uint_fast64_t i;
 
     if (num == 2){
         return 0;
