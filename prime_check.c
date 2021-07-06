@@ -1,6 +1,6 @@
-# include<stdio.h>
+# include <stdio.h>
 # include <stdint.h>
-# include<math.h>
+# include <math.h>
 
 int prime(uint_fast16_t num);
 
