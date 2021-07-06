@@ -8,12 +8,12 @@ int main(void){
     uint_fast16_t num;
 
     printf("number: ");
-    scanf("%d", &num);
+    scanf("%u", &num);
 
     if (prime(num) == 0) {
-        printf("%d is prime number\n", num);
+        printf("%u is prime number\n", num);
     } else {
-        printf("%d isn't prime number\n", num);
+        printf("%u isn't prime number\n", num);
     }
 
     return 0;
